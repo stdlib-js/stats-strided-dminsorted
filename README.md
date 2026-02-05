@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dminsorted@deno/mod.js';
+import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dminsorted@v0.1.1-deno/mod.js';
 ```
 
 #### dminsorted( N, x, strideX )
@@ -151,7 +151,7 @@ var v = dminsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@deno/mod.js';
-import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dminsorted@deno/mod.js';
+import dminsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dminsorted@v0.1.1-deno/mod.js';
 
 var options = {
     'dtype': 'float64'
